@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chethan A - Cybersecurity & Developer Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Chethan A, aspiring Cybersecurity professional and flexible Developer. Student at St. Francis De Sales College.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">CA<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="greeting">Hi, my name is</p>
+            <h1 class="name">Chethan A.</h1>
+            <h2 class="role">I build things for the <span class="highlight">secure</span> web.</h2>
+            <p class="summary">
+                A self-motivated aspiring Cybersecurity and Computer Science enthusiast passionate about ethical
+                hacking, network security, and creating robust applications.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="resume.pdf.png" class="btn btn-secondary" target="_blank" download>Download Resume <i
+                        class="fa-solid fa-download"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="blob-container">
+                <img src="profile.jpeg?v=3" alt="Chethan A" class="profile-img"
+                    onerror="this.src='https://via.placeholder.com/400x500/2b2b2b/ffffff?text=Profile+Image'">
+                <div class="blob"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Chethan, a student currently pursuing a Bachelor of Computer Applications (BCA) at St.
+                        Francis De Sales College in Electronic City, Bangalore. My expected graduation is in 2027.</p>
+                    <p>My interest in technology started early, and it evolved into a deep passion for cybersecurity and
+                        software development. I enjoy solving complex problems, whether it's developing a strategic game
+                        like Tic Tac Toe or understanding the intricacies of network vulnerabilities.</p>
+                    <p>I am dedicated to continuous learning, regularly engaging in cybersecurity courses, workshops,
+                        and Capture the Flag (CTF) challenges to stay updated with the latest industry trends.</p>
+                </div>
+                <div class="about-education">
+                    <div class="glass-card education-card">
+                        <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                        <div class="edu-details">
+                            <h4>Bachelor of Computer Applications (BCA)</h4>
+                            <p class="institution">St. Francis De Sales College (Autonomous), Bangalore</p>
+                            <p class="date">Graduation: 2027</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="section-container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+
+                <!-- Cybersecurity Skills -->
+                <div class="skill-category glass-card">
+                    <h3><i class="fa-solid fa-shield-halved"></i> Cybersecurity</h3>
+                    <ul class="skill-list">
+                        <li>Ethical Hacking & Penetration Testing</li>
+                        <li>Network Security</li>
+                        <li>Web Application Security</li>
+                        <li>Incident Response & Analysis</li>
+                    </ul>
+                </div>
+
+                <!-- Programming Skills -->
+                <div class="skill-category glass-card">
+                    <h3><i class="fa-solid fa-code"></i> Programming & OS</h3>
+                    <ul class="skill-list">
+                        <li>Python Programming</li>
+                        <li>C Programming</li>
+                        <li>Linux Operating System</li>
+                        <li>Windows Operating System</li>
+                    </ul>
+                </div>
+
+                <!-- Tools & Certifications -->
+                <div class="skill-category glass-card">
+                    <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools & Certs</h3>
+                    <div class="tools-tags">
+                        <span class="tag">Nmap</span>
+                        <span class="tag">Wireshark</span>
+                        <span class="tag">Burp Suite</span>
+                        <span class="tag">Metasploit</span>
+                    </div>
+                    <ul class="skill-list mt-top">
+                        <li>CompTIA Security+ <span class="status">(In progress)</span></li>
+                        <li>Certified Ethical Hacker (CEH) <span class="status">(In progress)</span></li>
+                        <li>Introduction to Cybersecurity (Cisco)</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fa-regular fa-folder-open folder-icon"></i>
+                            <div class="project-links">
+                                <a href="tic_tac_toe.py" target="_blank" title="View Source"><i
+                                        class="fa-brands fa-python"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Tic Tac Toe with Minimax AI</h3>
+                        <p class="project-description">
+                            A classic Tic Tac Toe game developed in Python using the Tkinter GUI library. Features a
+                            highly optimized AI opponent utilizing the Minimax algorithm, ensuring the AI never loses on
+                            'Hard' mode. Includes interactive UI and difficulty settings.
+                        </p>
+                        <ul class="project-tech-list">
+                            <li>Python</li>
+                            <li>Tkinter</li>
+                            <li>Algorithms</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fa-regular fa-folder-open folder-icon"></i>
+                            <div class="project-links">
+                                <a href="face_recognition.py" target="_blank" title="View Source"><i
+                                        class="fa-brands fa-python"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Real-time Face Recognition</h3>
+                        <p class="project-description">
+                            A computer vision application that captures and recognizes human faces in real-time using
+                            OpenCV. It implements dataset creation, grayscale conversion, and image diffing to identify
+                            subjects from a live webcam feed.
+                        </p>
+                        <ul class="project-tech-list">
+                            <li>Python</li>
+                            <li>OpenCV</li>
+                            <li>Numpy</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- CTF Experience -->
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fa-solid fa-flag folder-icon highlight"></i>
+                        </div>
+                        <h3 class="project-title">Cybersecurity Labs & CTFs</h3>
+                        <p class="project-description">
+                            Active participant in Capture the Flag (CTF) challenges. Regularly practice vulnerability
+                            assessments, network scanning, and exploit development in controlled lab environments to
+                            enhance practical hacking skills.
+                        </p>
+                        <ul class="project-tech-list">
+                            <li>Pen Testing</li>
+                            <li>Networking</li>
+                            <li>Analysis</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="section-container text-center">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-desc">
+                Currently looking for new opportunities to learn and grow in the field of cybersecurity and software
+                development. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            </p>
+            <div class="contact-details">
+                <a href="mailto:chethan@email.com" class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    chethan@email.com
+                </a>
+                <span class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    6381101602
+                </span>
+                <span class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Electronic City, Bangalore
+                </span>
+            </div>
+            <a href="https://wa.me/916381101602" target="_blank" class="btn btn-primary mt-top">Say Hello</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links text-center">
+            <a href="https://www.linkedin.com/in/chethanA" target="_blank" aria-label="LinkedIn"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p class="copyright">Designed & Built by Chethan A &copy; <span id="year"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
